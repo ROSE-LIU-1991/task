@@ -1,0 +1,25 @@
+body{color:white;
+    background-color:#68cdd5;
+    font-size:62.5%;
+}
+
+.header img{
+    margin:1em;
+    height:2.5em;
+}
+
+.main{margin:5em 20% 10em 20%;}
+.main img{height:4em;
+    display: block;
+    margin:0 auto 5em auto;
+}
+.main p{font-size:2em;
+}
+
+.footer{padding:0 20%;}
+.footer img{height:4em;display: block;margin: 0 auto;}
+.footer p{margin:0 auto;}
+.logo_left{
+    float: left;}
+.logo_right{
+    float: right;}
