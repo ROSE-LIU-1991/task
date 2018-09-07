@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>taks4</title>
+    <style>
+         body{padding: 0;margin:0;border: 0;font-family: "Microsoft YaHei", sans-serif;}
+        .box{position:fixed;height:100%;width: 100%;background: #e1e5e7;overflow: auto}
+         header{display:table;width: 100%;height:3em;color:white;background: #5fc0cd;}
+        .zhuce{position:absolute;left: 0;right: 0;display: table-cell;color: white;vertical-align: middle;text-align:left;padding:1em}
+        .denglu{position:absolute;left: 0;right: 0;display:table-cell;color: white;text-align: center;padding:1em}
+        .guanbi{position:absolute;left: 0;right: 0;display: table-cell;color: white;margin: 0 auto;;text-align: right;padding:1em}
+        .box1{position:absolute;top:1em;width: 100%;height: 3em;background: white}
+        .box2{position:absolute;top: 5em;width: 100%;height: 3em;background: white}
+        .box3{position:absolute;top: 9em;width: 100%;height: 3em;background: white}
+        .phone{position:absolute;display: inline-block;top:0.5em;padding: 0 1.5em ;border-right:solid #e1e5e7 ;border-right-width: 0.1em;background: white ;}
+        .phone img{width:1.5em;height:2em;}
+        .lock{position:absolute;display: inline-block;top: 0.5em;padding: 0 1.5em ;border-right:solid #e1e5e7 ;border-right-width: 0.1em;background: white ;}
+        .lock img{width:1.5em;height:2em;}
+        .input1{display: inline-block;position:absolute;top:0.5em;left:7em;height:2.5em;border:none;width: 100%;line-height: 2.5em}
+        .input2{display: inline-block;position:absolute;top:0.5em;left:7em;height:2.5em;border:none;width: 100%;line-height: 2.5em}
+        .bottom{display: inline-block;position: absolute;height: 100%;width: 100%;font-size:1rem;border: none;color:white;background: #5fc0cd}
+        .forget{
+            display:block;
+            float:right;
+            font-size:1.5rem;
+            color:#5fc0cd;
+            position:absolute;
+            right:1rem;
+            top:50%;
+            font-size:1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <a class="zhuce">注册</a>
+    <span class="denglu" >登录</span>
+    <a class="guanbi">关闭</a>
+    </header>
+
+    <div class="box">
+        <div class="box1">
+        <div class="phone"><img src="C:\Users\刘永宁\Desktop\1.gif.png" ></div>
+        <input type="text"  placeholder="请输入手机号"  class="input1" size="100%">
+        </div>
+        <div class="box2">
+        <div class="lock"><img src="C:\Users\刘永宁\Desktop\2.gif.png" ></div>
+            <input type="text" placeholder="请输入密码" class="input2" size="100%">
+        </div>
+        <div class="box3">
+    <input type="button" value="登录" class="bottom">
+        </div>
+    </div>
+    <a class="forget" href="#">忘记密码</a>
+</body>
+</html
