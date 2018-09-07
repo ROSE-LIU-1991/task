@@ -45,7 +45,7 @@ main{
 	margin: 1rem auto;
 	height: 4.5rem;
 	text-align: left;
-	background-image: url(".\1.gif.png");
+	background-image: url(.\1.gif.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-origin: content-box;
@@ -57,7 +57,7 @@ main{
 	margin: 1rem auto;
 	height: 4.5rem;
 	text-align: left;
-    background-image: url(".\2.gif.png");
+    background-image: url(.\2.gif.png);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-origin: content-box;
