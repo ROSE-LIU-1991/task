@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    min-width: 320px;
+}
+header,footer {
+    position: fixed;
+    min-width: 320px;
+    height: 3.3rem;
+    width: 100%;
+}
+header {
+    background-color: #5FC0CD;
+
+}
+header a {
+    float: left;
+    line-height: 3.3rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    padding-left: 1.4rem;
+}
+header p {
+    text-align: center;
+    line-height:3.3rem;
+    font-size: 1.6rem;
+    color: white;
+    margin:0 4rem;
+}
+main {
+    padding: 3.3rem 0;
+}
+.user-section {
+    background: url("./5.png") no-repeat left center ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 16.3rem;
+    width:60cm;
+
+}
+.user-pho {
+    float: left;
+    width: 28%;
+    height: 16.3rem;
+    text-align: center;
+    
+}
+.user-pho img{
+    width: 7.4rem;
+    position:fixed;
+    left:4rem;
+    top: 20%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);    
+}
+.user-info {
+    position: fixed;
+    left:13rem;
+    top: 20%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+.user-name {
+    font-size: 1.4rem;
+    color: white;
+}
+.address img{
+    height: 1.0rem;
+    vertical-align: center;
+}
+.address {
+    font-size:1.2rem;
+    color: white;
+    padding-top: 0.5rem;
+}
+ul,li {
+    list-style: none;/*去除，列表默认样式*/
+
+}
+.user-form {
+    font-size: 1.2rem;
+}
+.user-form-title {
+    padding: 0 1rem;
+    line-height: 5rem;
+    border-bottom: 1px solid #ccc;
+}
+.user-form-title span {
+    font-size: 1.4rem;
+    border-left: 2px solid #5FC0CD ;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.user-form-list li {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding: 0 1.5rem;
+
+
+
+}
+.user-form-tag {
+    background: url("./4.gif.png") no-repeat left center;/*插入背景图片，不重复，水平位置靠左，垂直位置居中*/
+    font-size: 1.4rem;
+    line-height: 5rem;
+    -webkit-background-size: 1.2rem;
+    background-size: 1.2rem;
+    padding: 0 1.5rem;
+}
+.user-form-label {
+    position: absolute;
+    width: 5rem;
+    /*垂直居中*/
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-right: 1px solid #cccccc;
+}
+.user-form-info {
+    margin-left: 6rem;
+    line-height: 2rem;
+    padding: 1.5rem 0;/*通过设置内边距来达到文字垂直居中且父容器高度自适应，类似于line-height*/
+    
+}
+footer {
+    font-size: 1.6rem;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;/*沿主轴行项目排列，不换行*/
+    justify-content: center;/*flex项目在主轴线上的对齐方式*/
+    align-items: center;/*flex项目在测轴上的对齐方式*/
+    bottom: 0;
+    padding: 1rem 0;
+    background-color: white;
+
+}
+footer button {
+    flex-grow: 1;/*flex项目伸缩空间相等*/
+    outline: none;/*去除点击时的边框*/
+    border: 2px solid #5FC0CD;
+    line-height: 3.3rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: 50vw;
+    margin: 0 1rem;
+    cursor: pointer;/*鼠标移动到项目上时的光标显示*/
+
+}
+.footer-but-mes {
+    color: #5FC0CD;
+    background-color: white;
+
+}
+.footer-but-connect {
+    background-color: #5FC0CD;
+    color: white;
+
+}
