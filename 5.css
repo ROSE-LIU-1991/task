@@ -37,7 +37,7 @@ main {
     padding: 3.3rem 0;
 }
 .user-section {
-    background: url("./5.png") no-repeat left center ;
+    background: url("./4.png") no-repeat left center ;
     -webkit-background-size: cover;
     background-size: cover;
     height: 16.3rem;
@@ -113,7 +113,7 @@ ul,li {
 
 }
 .user-form-tag {
-    background: url("./4.gif.png") no-repeat left center;/*插入背景图片，不重复，水平位置靠左，垂直位置居中*/
+    background: url("./3.png") no-repeat left center;/*插入背景图片，不重复，水平位置靠左，垂直位置居中*/
     font-size: 1.4rem;
     line-height: 5rem;
     -webkit-background-size: 1.2rem;
