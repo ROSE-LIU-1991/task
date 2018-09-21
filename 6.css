@@ -116,7 +116,7 @@ select>option{
     flex-direction:row;
     justify-content:space-around;
     border-top:0.5px gray solid;
-    
+    background-color:white;
 }
 .home img,.mine img{
     width:2.8rem;
