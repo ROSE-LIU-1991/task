@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    color:#fff;
+    background-color:#5ec0ce;
+    width:100vw;
+    height:3rem;
+    position:fixed;
+    top:0;
+    left:0;
+   
+}
+.box1{
+    width:5rem;
+    height:2.5rem;
+    display:inline-block;
+    color:#fff;
+    background-color:#55a7b2;
+    position:relative;
+    top:0.25rem;
+    left:50%;
+    border-radius:8px;
+    margin:-5rem;
+    
+}
+.box2{
+    width:5rem;
+    height:2.5rem;
+    display:inline-block;
+    color:#5ec0ce;
+    background-color:#fff;
+    position:relative;
+    top:0.25rem;
+    left:50%;
+    margin-left:4.5rem;
+    border-radius:8px;
+
+}
+.location{
+    transform:scale(0.5);
+    position:absolute;
+    top:-0.2rem;
+    right:0;
+}
+.box1>p,.box2>p{
+    display:inline-block;
+    position:relative;
+    top:0.5rem;
+    left:1rem;
+}
+.header::after{
+    clear:both;
+}
+.header1{
+    display:flex;
+    background-color:#fff;
+    color:gray;
+    margin-top:3rem;
+    border-bottom:0.5px #bec1c1 solid; 
+}
+select{
+
+    flex:1;
+    padding:0.4rem 0.8rem 0.4rem 1.2rem;
+    color:gray;
+    text-align:center;
+    text-align-last:center;
+    margin:0.5rem 0;
+    border:none;
+    outline:none;
+    border-right:0.5px #bec1c1 solid;
+}
+select>option{
+    border:none;
+    outline:none;
+}
+.date>img,.address>img{
+    float:left;
+    transform:scale(0.5);
+
+}
+.main{
+    height:6rem;
+    width:100vw;
+    font-family:arial;
+    border-bottom:0.5px #bec1c1 solid;
+    line-height:2rem;
+}
+.date,.address{
+    font-family:arial;
+    font-size:16px;
+    color:gray;
+}
+.date-content{
+    font-size:18px;
+
+}
+.date-2{
+    color:red;
+    display:inline-block;
+    float:right;
+}
+.date-2>span{
+    color:#5ec0ce;
+    margin:0 2rem 0 1rem;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    height:4rem;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    border-top:0.5px gray solid;
+    
+}
+.home img,.mine img{
+    width:2.8rem;
+    height:3.6rem;
+
+}
+.edit img{
+    width:4.5rem;
+    height:3.6rem;
+}
