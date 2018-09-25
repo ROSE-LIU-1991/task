@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:arial;
+    background-color:#34bede;
+}
+.header{
+    background-color:#34bede;
+    height:3rem;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    left:0;
+    top:0;
+}
+.list{
+    height:1.6rem;
+    width:1.4rem;
+    margin-left:0.5rem;
+}
+.close{
+    width:1.5rem;
+    height:1.6rem;
+    margin-right:1rem;
+}
+.header>p{
+    color:#fff;
+    font-size:18px;
+    letter-spacing:1px;
+}
+.header1{
+    height:3rem;
+    width:100vw;
+    background-color:#bae9f4;
+    margin-top:3rem;
+}
+.vote{
+    font-size:16px;
+    color:rgb(29, 25, 25);
+    margin-left:2.5rem;
+    line-height:3rem;
+    letter-spacing:1px;
+    background-color:#bae9f4;
+}
+.voice{
+    width:1.8rem;
+    height:1.8rem;
+    
+    float:right;
+    margin-right:1rem;
+    margin-top:0.6rem;
+}
+.tri{
+    width:0;
+    height:0;
+    border-top:10px solid #bae9f4;
+    border-bottom:10px solid transparent;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    margin-left:3rem;
+}
+.click{
+    font-size:14px;
+    color:#fff;
+    margin-left:3rem;
+    margin-top:-0.3rem;
+    background-color:#34bede;
+}
+.main{
+    background-color:#34bede;
+}
+.box1{
+    height:4rem;
+    width:4rem;
+    border:2px solid white;
+    margin:1rem 0;
+}
+
+.demo1{
+    height:3rem;
+    width:4rem;
+    background-color:#f3c881;
+    text-align:center;
+    line-height:3rem;
+}
+.demo2{
+    height:1rem;
+    width:4rem;
+    background-color:#82af9b;
+    font-size:12px;
+    text-align:center;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.footer{
+    width:100vw;
+    height:5rem;
+    position:fixed;
+    left:0;
+    bottom:0;
+}
+.death{
+    width:18rem;
+    height:3rem;
+    font-size:18px;
+    color:#fff;
+    letter-spacing:2px;
+    background-color:#f8b445;
+    outline:none;
+    border:none;
+    position:absolute;
+    bottom:1rem;
+    left:50%;
+    margin-left:-9rem;
+    
+}
+.add img{
+    width:4.3rem;
+    height:1rem;
+    margin-top:-1rem;
+}
+.death>a{
+    text-decoration:none;
+    background-color:#f8b445;
+}
+#only{
+    margin:1rem 0 0.5rem 0;
+}
+#only4{
+    margin:0.5rem 0 1rem 0;
+}
