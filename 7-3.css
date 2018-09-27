@@ -109,7 +109,7 @@ h2{
     background-color:gray;
     margin:0 4px;
 }
-#green{
+.circle:hover{
     background-color:#34bede;
 }
 .row{
