@@ -1,0 +1,254 @@
+body{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+    overflow-x:hidden;
+}
+a{
+    text-decoration:none;
+}
+p{
+    color:gray;
+    text-align:left;
+}
+
+.header1{
+    width:100%;
+    height:5rem;
+    display:flex;
+    justify-content:space-between;
+   
+}
+.hotline{
+    color:#1db176;
+    font-size:1.5rem;
+    line-height:5rem;
+}
+.media>img{
+    margin:0 0.4rem;
+}
+nav.navbar{
+    width:100vw;
+    background-color:#1db176;
+    margin:0;
+    border:0;
+}
+.navbar-brand>img{
+    width:9rem;
+    margin:0;
+}
+div.navbar-collapse{
+    border:0;
+}
+ul.navbar-right>li{
+    list-style:none;
+}
+ul.navbar-right>li>a{
+    line-height:3rem;
+    font-size:1.8rem;
+    color:white !important;
+    text-align:center;
+}
+ul.navbar-right>li:hover{
+    border-bottom:3px solid white;
+}
+.carousel-inner img{
+    display:inline-block;
+    width:100%;
+    height:60vh;
+}
+.main1{
+    margin-top:5rem;;
+}
+#spc{
+    margin:0 5rem;
+}
+strong{
+    display:inline-block;
+    margin:2rem 0;
+}
+.left1{
+    text-align:center;
+}
+.left2{
+    text-align:center;
+}
+.left2>p{
+    text-align:center;
+}
+.right2{
+    text-align:center;
+}
+.left2>img{
+    margin-bottom:1rem;
+}
+.right1{
+    padding-top:2rem;
+    padding:2rem;
+    border-left:1px dashed gray;
+}
+.right1 p{
+    margin:1rem 0;
+}
+.main1>character p{
+    text-align:left;
+}
+.learn{
+    text-align:center;
+    margin:5rem;
+}
+.circle{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    box-shadow:1px 1px 1px lightgray;
+    text-align:center;
+    vertical-align:middle;
+    padding-top:9px;
+    margin-left:5rem;
+}
+.match{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin:3rem 0;
+    
+}
+.match>img{
+    display:inline-block;
+    margin:0 0 0 1rem;
+}
+.match span{
+    margin-left:1rem;
+    color:gray;
+    text-align:left;
+}
+.excellent{
+    text-align:center;
+    margin:3rem;
+}
+.show{
+    text-align:center;
+    margin:0 2rem;
+    border:1px solid rgb(196, 194, 194);
+    border-left-color:rgb(243, 240, 240);
+    border-top-color:rgb(243, 240, 240);
+    padding:3rem 1rem;
+    margin:0 -0.5rem;
+}
+.show:hover{
+    box-shadow:1px 1px 1px gray;
+}
+.show strong{
+    margin:4rem;
+}
+.green-circle{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:3rem 0;
+}
+.green-circle>div{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    box-shadow:1px 1px 1px gray;
+}
+.green-circle>div:hover{
+   background-color:#1db176;
+}
+div>.study{
+    margin-right:5rem;
+}
+div>.good{
+    margin:0 5rem;
+}
+.show>p{
+    text-align:left;
+}
+.business{
+    text-align:center;
+    margin:3rem;
+}
+.company{
+    margin:0 4rem;
+}
+.company>img{
+    margin:0 2.5rem;
+}
+.company>img:hover{
+    border-bottom:1px solid rgb(189, 187, 187);
+    border-right:1px solid rgb(189, 187, 187);
+}
+.friendly{
+    text-align:center;
+    margin:2rem;
+}
+.link{
+    margin:0 5rem;
+}
+.link>ul>li{
+    float:left;
+    padding:0.2rem 6rem 0.2rem 0;
+    color:gray;
+}
+.link>ul>li>a{
+    color:gray;
+    display:inline-block;
+    padding:0.3rem 0;
+}
+.link>ul>li>a:hover{
+    text-decoration:none;
+    border-bottom:1px solid lawngreen;
+}
+.footer-bottom{
+    background-color:#1db176;
+    color:white;
+    font-size:1.5rem;
+    width:100vw;
+}
+.footer-bottom p{
+    color:white;
+}
+.footer-bottom a{
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    margin:0.5rem 1rem 0.5rem 0;
+    padding:0.3rem 0;
+}
+.jinengshu{
+    margin:0 5rem;
+}
+.jinengshu>p{
+    margin:2rem 0 0 0;
+}
+.jinengshu a:hover{
+    color:white;
+    text-decoration:none;
+    border-bottom:1px solid white;
+}
+.website{
+    margin:2rem 0 0 5rem;
+}
+.website>p{
+    margin:0.2rem 0;
+}
+.website>p>a{ 
+    margin:0.2rem 0 0.2rem 0;
+}
+.website a:hover{
+    color:white;
+    text-decoration:none;
+    border-bottom:1px solid white;
+}
+.offical{
+    margin:2rem 0 0 5rem;
+}
+.btn>p{
+    width:100vw;
+    text-align:center;
+    padding-top:1rem;
+    border-top:1px solid rgb(4, 240, 142);
+}
