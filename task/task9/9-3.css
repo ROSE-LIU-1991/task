@@ -1,0 +1,255 @@
+body{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+    overflow-x:hidden;
+}
+a{
+    text-decoration:none;
+}
+p{
+    color:gray;
+    text-align:left;
+}
+
+.header1{
+    width:100%;
+    height:5rem;
+    display:flex;
+    justify-content:space-between;
+   
+}
+.hotline{
+    color:#1db176;
+    font-size:1.5rem;
+    line-height:5rem;
+}
+.media>img{
+    margin:0 0.4rem;
+
+}
+.header2{
+    width:100vw;
+    height:7rem;
+    overflow:hidden;
+    background-color:#1db176;
+}
+.jns>img{
+    float:left;
+    width:8vw;
+    height:7vh;
+    margin:1.5rem 3rem;
+}
+nav.navbar{
+    width:100vw;
+    background-color:#1db176;
+    margin:0;
+    border:0;
+}
+div.navbar-collapse{
+    border:0;
+}
+.navbar-brand>img{
+    width:7vw;
+    margin:0;
+}
+@media screen and (max-width:768px){
+    .navbar-brand>img{
+        width:14vw;
+    }
+}
+ul.navbar-right>li{
+    list-style:none;
+    border-bottom:3px solid transparent;
+}
+ul.navbar-right>li>a{
+    line-height:3rem;
+    font-size:1.8rem;
+    color:white !important;
+    text-align:center;
+}
+ul.navbar-right>li:hover{
+    border-bottom:3px solid white;
+}
+.job{
+    font-size:1.6rem;
+    margin:2rem 3rem;
+    padding:1rem 0;
+    border-bottom:1px solid lightgray;
+}
+.job>p>span{
+    color:#1db176;
+}
+ul,li{
+    list-style:none;
+}
+#cos::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+.direction{
+    border-bottom:1px solid lightgray;
+    padding:3rem 0;
+    overflow:hidden;
+    margin-left:-5rem;
+}
+.direction-content>li{
+    float:left;
+    font-size:1.4rem;
+    padding:0 2rem;
+}
+.direction>ul>li>span{
+    color:gray;
+}
+.direction-content>li>a{
+   color:black;
+}
+.direction>ul>li>a:hover{
+    text-decoration:none;
+    color:#1db176;
+}
+.develop{
+    color:black;
+    font-size:1.5rem;
+    border-bottom:1px solid lightgray;
+    padding:2rem 0;
+}
+.top img{
+    height:7rem;
+    width:7rem;
+    float:left;
+    margin:0.5rem;
+}
+.top{
+    border:1px solid lightgray;
+    color:black;
+    width:100%;
+}
+.tr1 img{
+    width:1rem;
+    height:1rem;
+}
+.bottom{
+    width:100%;
+    color:gray;
+    border-color:rgb(216, 210, 210);
+}
+.tr1,.tr3,.tr5{ 
+    width:100%;
+    height:3.5rem;
+}
+.red{
+    color:#f40;
+}
+.black{
+    color:black;
+}
+.special{
+    height:3.5rem;
+    padding:0;
+    margin:0;
+}
+.pay{
+    text-align:center;
+    color:gray;
+}
+.box{
+    margin:3rem 0;
+    
+}
+.hover-home{
+    visibility:hidden;
+    position:absolute;
+    left:3%;
+    top:3%;
+    width:95%;
+    height:95%;
+    background-color:rgba(5, 0, 0, 0.788);
+    font-size:1.6rem;
+    color:white;
+    transition-duration:0.8s;
+}
+.hover-home>h1{
+    text-align:center;
+    margin:5rem 0;
+}
+.hover-home>p{
+    text-indent:2rem;
+    margin:0 2rem;
+}
+.box:hover .hover-home{
+    visibility:visible;
+}
+.footer{
+    background-color:#1db176;
+    color:white;
+    font-size:1.5rem;
+    width:100vw;
+    margin:0;
+    padding:0;
+}
+.footer p{
+    color:white;
+}
+.footer a{
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    margin:0.5rem 1rem 0.5rem 0;
+    padding:0.3rem 0;
+}
+.jinengshu>p{
+    margin-top:2rem;
+}
+
+.jinengshu a:hover{
+    color:white;
+    text-decoration:none;
+    border-bottom:1px solid white;
+}
+.website{
+    margin-top:2rem;
+}
+.website>p{
+    margin:0.2rem 0;
+}
+.website>p>a{ 
+    margin:0.2rem 1rem 0.2rem 0;
+    border-bottom:1px solid transparent;
+}
+.website a:hover{
+    color:white;
+    text-decoration:none;
+    border-bottom:1px solid white;
+}
+.offical{
+    margin-top:2rem;
+}
+.btn{
+    margin:0 !important;
+    padding:0 !important;
+}
+.btn>p{
+    width:100vw;
+    text-align:center;
+    white-space:normal;
+    padding-top:1rem;
+    border-top:1px solid rgb(4, 240, 142);
+}
+.main-in{
+    background-color:white;
+}
+@media screen and (max-width:1200px){
+    .jinengshu,.website,.offical{
+        width:fit-content;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .top img{
+        width:fit-content;
+        margin:auto;
+    }
+}
+
+
