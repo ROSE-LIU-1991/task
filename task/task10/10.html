@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>任务十</title>
+        <link rel="stylesheet" type="text/css" href="10.css">
+        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+         <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 hotline">
+                            客服热线：010-594-78634
+                    </div>
+                    <div class="col-xs-4">
+                        <span class="login">
+                            <a class="bor" href="#">登录</a>
+                            <a href="#">注册</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-box">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav navbar-right">
+                         <li>
+                             <a href="#" class="active">首页</a>
+                         </li>
+                         <li>
+                             <a href="#">在线定制</a>
+                         </li>
+                         <li>
+                             <a href="#">标准箱</a>
+                         </li>
+                         <li>
+                             <a href="#">品质保障</a>
+                         </li>
+                     </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="step-box">
+                       <div class="step active spc">
+                        <div class="step-bar"></div>
+                        <div class="step-number">1</div>
+                        <div class="step-explain">1.定制纸箱</div>
+                       </div>
+                      <div class="step">
+                          <div class="step-bar"></div>
+                          <div class="step-number">2</div>
+                          <div class="step-explain">2.选择数量</div>
+                      </div>
+                      <div class="step">
+                          <div class="step-bar"></div>
+                          <div class="step-number">3</div>
+                          <div class="step-explain">3.上传附件</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-bar"></div>
+                        <div class="step-number">4</div>
+                        <div class="step-explain">4.确认下单</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="container main-contain">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="preface">
+                <span class="vertical"></span>请你按照以下步骤来定制您的纸箱
+            </div>
+        </div>
+    </div>
+    <div class="row box-type">
+        <div class="col-xs-12">
+            <div class="tittle">选择箱型</div>
+        </div>
+        <div class="col-user row-control">
+            <input type="radio" name="box-type" value="box1" id="box1" checked>
+            <label for="box1">对口箱</label>
+        </div>
+        <div class="col-user">
+            <input type="radio" name="box-type" value="box2" id="box2">
+            <label for="box2">飞机盒</label>
+        </div>
+        <div class="col-user">
+            <input type="radio" name="box-type" value="box3" id="box3">
+            <label for="box3">天地盖</label>
+        </div>
+        <div class="select-box">
+            <select name="box-type" id="box-type">
+                <option value="">查看详情</option>
+                <option value="box1">对口箱</option>
+                <option value="box2">飞机盒</option>
+                <option value="box3">天地盖</option>
+            </select>
+        </div>
+    </div>
+    <div class="row box-size">
+        <div class="col-xs-12">
+            <div class="tittle">
+                确定尺寸
+            </div>
+        </div>
+        <div class="col-user-a">
+            <input type="radio" name="ruler" value="outer" id="outer">
+            <label for="outer">外径</label>
+        </div>
+        <div class="col-user-a-s">
+            <span>长</span>
+            <input type="text" name="box-length" max-length="3" pattern="[0-9]">
+            <span>mm</span>
+        </div>
+        <div class="col-user-a-s">
+            <span>宽</span>
+            <input type="text" name="box-width" max-length="3" pattern="[0-9]">
+            <span>mm</span>
+        </div>
+        <div class="col-user-a-s">
+            <span>高</span>
+            <input type="text" name="box-height" max-length="3" pattern="[0-9]">
+            <span>mm</span>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-user-b">
+            <input type="radio" name="ruler" value="inner" id="inner">
+            <label for="inner">内径</label>
+        </div>
+        <div class="col-user-b-s">
+            <span>长</span>
+            <input type="text" name="box-length" max-length="3" pattern="[0-9]*">
+            <span>mm</span>
+        </div>
+        <div class="col-user-b-s">
+            <span>宽</span>
+            <input type="text" name="box-width" max-length="3" pattern="[0-9]*">
+            <span>mm</span>
+        </div>
+        <div class="col-user-b-s">
+            <span>高</span>
+            <input type="text" name="box-height" max-length="1" pattern="[0-9]*">
+            <span>mm</span>
+        </div>
+        <div class="select-box">
+            <select name="box-size" id="box-size">
+                <option value="">查看详情</option>
+                <option value="outer">外径</option>
+                <option value="inner">内径</option>
+            </select>
+        </div>
+    </div>
+    <div class="row box-texture">
+        <div class="col-xs-12">
+              <div class="tittle">选择材质</div>
+        </div>
+        <div class="col-user row-control">
+             <input type="radio" name="box-texture" value="texture1" id="texture1" checked>
+             <label for="texture1">A瓦优质</label>
+        </div>
+        <div class="col-user">
+            <input type="radio" name="box-texture" value="texture2" id="texture2">
+            <label for="texture2">B瓦优质</label>
+        </div>
+        <div class="col-user">
+            <input type="radio" name="box-texture" value="texture3" id="texture3">
+            <label for="texture3">E瓦优质</label>
+        </div>
+        <div class="col-user">
+            <input type="radio" name="box-texture" value="texture4" id="texure4">
+            <label for="texture4">AB瓦优质</label>
+        </div>
+        <div class="col-user">
+            <input type="radio" name="box-texture" value="texture5" id="texture5">
+            <label for="texture5">BE瓦优质</label>
+        </div>
+        <div class="select-box">
+            <select name="box-texture" id="box-texture">
+                <option value="">查看详情</option>
+                <option value="texture1">A瓦优质</option>
+                <option value="texture2">B瓦优质</option>
+                <option value="texture3">E瓦优质</option>
+                <option value="texture4">AB瓦优质</option>
+                <option value="texture5">BE瓦优质</option>
+            </select>  
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center">
+              <button class="btn btn-next"><a href="#">下一步</a></button>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="left">
+                <p>51包装网——纸箱包装首选服务平台</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="middle">
+                <a href="#">关于我们</a>
+                <a href="#">配送流程</a>
+                <a href="#">联系我们</a>
+                <br>
+                <a href="#">下单指南</a>
+                <a href="#">媒体介绍</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="right">
+                <div class="contact-information">
+                <p>TEL:400-0000-000</p>
+                <p>企业QQ：123456789</p>
+                <P>微信号：XXXXXXXXX</P>
+                </div>
+                <img src="11.png">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-extra">
+    <div class="row">
+        <div class="col-xs-12">
+            <span>北京五一包装科技有限公司Copyright©2015</span>
+            <span>51baozhuang.com015</span>
+            <span>All rights reserved. 京icp备9999999-1</span>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
