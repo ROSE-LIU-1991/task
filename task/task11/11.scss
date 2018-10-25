@@ -1,0 +1,143 @@
+$blue:#5fc0cd;
+$gray:#f0edf1;
+$white:white;
+$height:1rem;
+$margin:5px;
+body{
+    font-size:62.5%;
+    margin:0;
+    padding:0;
+    background-color:$gray;
+}
+.header{
+    font-size:$height*2.2;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height:$height*6;
+    width:100%;
+    background-color:$blue;
+    color:$white;
+    line-height:$height*6;
+    a{
+        text-decoration:none;
+        color:$white;
+        &:hover{
+            text-decoration:none;
+            color:$white;
+        }
+    }
+    .register{
+        display:inline-block;
+        margin-left:$height;
+    }
+    .close{
+        display:inline-block;
+        margin-right:$height;
+    }
+}
+.main{
+    .phone-entering{
+        height:$height*6;
+        width:100%;
+        background-color:$white;
+        font-size:$height*2;
+        margin-top:$height*2;
+        img{
+            display:block;
+            margin:$height*1.5 auto;
+            float:left;
+            padding-left:$height*2;
+            padding-right:$height*2;
+            border-right:1px solid lightgray;
+        }
+        input{
+            height:$height*5.8;
+            width:80%;
+            outline:none;
+            border:none;
+            font-size:$height*2;
+            &::-webkit-input-placeholder{
+                font-size:$height*2;
+                color:gray;
+            }
+        }
+    }
+    .password-entering{
+        @extend .phone-entering ;
+    }
+}
+.footer{
+    height:$height*6;
+    line-height:$height*6;
+    margin-top:$height*2;
+    .login{
+        height:$height*6;
+        width:100%;
+        background-color:$blue;
+        color:$white;
+        font-size:$height*2.2;
+        outline:none;
+        border:none;
+    }
+}
+.forget{
+    float:right;
+    font-size:$height*1.8;
+    color:$blue;
+    a{
+        text-decoration:none;
+        color:$blue;
+        &:hover{
+             text-decoration:none;
+             color:$blue;
+        }
+    }
+}
+@media screen and (max-width:767px){
+    .header{
+        font-size:$height*1.6;
+        height:$height*3;
+        line-height:$height*3;
+    }
+    .main{
+        font-size:1.6rem;
+        .phone-entering{
+            height:$height*3;
+            width:100%;
+            margin-top:$height;
+            font-size:$height*1.6;
+            img{
+                padding-left:$height;
+                padding-right:$height;
+                width:$height*1.5;
+                height:$height*2.3;
+                transform:translateY(-50%);
+            }
+            input{
+                height:$height*2.5;
+                width:60%;
+                font-size:$height*1.6;
+                &::-webkit-input-placeholder{
+                    font-size:$height*1.4;
+                }
+            }
+        }
+        .password-entering{
+               img{
+                  
+               }
+        }
+    }
+    .footer{
+        height:$height*3;
+        background-color:red;
+        .login{font-size:$height*1.6;
+                height:$height*3;
+            
+            }
+    }
+    .forget{
+        font-size:$height*1.6;
+    }
+}
