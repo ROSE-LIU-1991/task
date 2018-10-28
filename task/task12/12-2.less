@@ -1,0 +1,118 @@
+@height:1rem;
+@red:#e26163;
+@blue:#5fc0cd;
+@white:white;
+@px:1px;
+body{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+}
+.top{
+    width:100%;
+    height:@height*3;
+    background-color:@blue;
+    font-size:@height*1.2;
+    position:relative;
+    top:0;
+    left:0;
+    div{
+        width:@height*5;
+        height:@height*2.5;
+        border-radius:10px;
+        text-align:center;
+        line-height:@height*2.5;
+    }
+    .top-left{
+        position:absolute;
+        top:0.25rem;
+        left:50%;
+        margin-left:-5rem;
+        background-color:#55a8b3;
+        color:@white;
+    }
+    .top-right{
+        position:absolute;
+        top:0.25rem;
+        left:50%;
+        margin-left:-0.5rem;
+        background-color:@white;
+        color:@blue;
+    }
+    img{
+        width:@height*2;
+        float:right;
+        margin:@height/2;
+    }
+}
+.select-box{
+    width:100%;
+    height:@height*3;
+    line-height:@height*3;
+    display:flex;
+    border-bottom:@px solid lightgray !important;
+    select{
+       border:none;
+       width:33.3%;
+       height:@height*2.3;
+       font-size:@height;
+       color:gray;
+       margin-top:8px;
+       margin-bottom:8px;
+       border-right:@px solid lightgray;
+       text-align:center;
+       text-align-last:center;
+    }
+}
+.expense{
+    font-size:@height;
+    border-bottom:@px solid lightgray;
+    p{
+        margin:@height/2 @height;
+    }
+    .date{
+        color:gray;
+        img{
+            width:@height;
+        }
+    }
+    .time{
+        .black{
+            color:black;
+        }
+        .red{
+            color:@red;
+            float:right;
+        }
+        .blue{
+            color:@blue;
+            display:inline-block;
+            margin:auto @height/2;
+        }
+    }
+    .place{
+        color:gray;
+        img{
+            width:@height;
+        }
+    }
+}
+main{
+    margin-bottom:@height*5;
+}
+.fixed{
+    width:100%;
+    height:@height*4;
+    position:fixed;
+    left:0;
+    bottom:0;
+    background-color:rgb(252, 250, 250);
+    display:flex;
+    justify-content:space-around;
+    .img-1{
+        width:@height*3;
+    }
+    .img-2{
+        width:@height*5;
+    }
+}

@@ -1,0 +1,120 @@
+@color:#5fc0cd;
+@height:1rem;
+@px:1px;
+@white:white;
+body{
+    font-size:62.5%;
+    margin:0;
+    padding:0;
+    overflow-X:hidden;
+}
+.homepage{
+    height:@height*3;
+    width:100%;
+    background-color:@color;
+    line-height:@height*3;
+    font-size:@height*1.6;
+    text-align:center;
+    color:@white;
+    span{
+        float:left;
+        margin-left:@px*5;
+        cursor:pointer;
+    }
+}
+.introduce{
+    width:100vw;
+    height:@height*10;
+    background:url("3.png") no-repeat;
+    background-size:100vw 10rem;
+    font-size:@height*1.2;
+    color:@white;
+    position:relative;
+    top:0;
+    left:0;
+    .self{
+        width:@height*7;
+        float:left;
+        margin:@height*1.5 @height*0.5;
+    }
+    p{
+        font-size:@height;
+    }
+    .para-1{
+        position:absolute;
+        left:@height*8;
+        top:@height*2.3;
+    }
+    .para-2{
+        position:absolute;
+        left:@height*8;
+        top:@height*4;
+        font-size:@height*0.8;
+        img{
+            width:@height*0.6;
+            display:inline-block;
+            margin-right:@height*0.5;
+        }
+    }
+}
+main{
+    margin-bottom:@height*6;
+    p{
+        width:100%;
+        height:@height*2;
+        font-size:@height;
+        border-bottom:1px solid lightgray;
+        margin-left:@height;
+    }
+    .green{
+        color:@color;
+        font-weight:bolder;
+        display:inline-block;
+        margin-right:@height;
+    }
+    .bigger{
+        font-size:@height;
+    }
+    img{
+        width:@height;
+        margin-left:@height;
+        margin-right:@height/2;
+    }
+    .left{
+        color:gray;
+        display:inline-block;
+        padding-left:@height;
+        padding-right:@height;
+        border-right:@px solid lightgray;
+    }
+    .right{
+        display:inline-block;
+        margin:auto @height;
+    }
+}
+footer{
+    height:@height*4;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    button{
+        width:40%;
+        height:@height*3;
+        margin:@height/2 5%;
+        outline:none;
+        border:none;
+        border-radius:@px*10;
+    }
+    .button-left{
+        float:left;
+        color:@color;
+        background-color:@white;
+        border:@px solid @color;
+    }
+    .button-right{
+        float:right;
+        color:@white;
+        background-color:@color;
+    }
+}

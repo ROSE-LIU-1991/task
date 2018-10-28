@@ -1,0 +1,116 @@
+body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  overflow-X: hidden;
+}
+.homepage {
+  height: 3rem;
+  width: 100%;
+  background-color: #5fc0cd;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: white;
+}
+.homepage span {
+  float: left;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.introduce {
+  width: 100vw;
+  height: 10rem;
+  background: url("3.png") no-repeat;
+  background-size: 100vw 10rem;
+  font-size: 1.2rem;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.introduce .self {
+  width: 7rem;
+  float: left;
+  margin: 1.5rem 0.5rem;
+}
+.introduce p {
+  font-size: 1rem;
+}
+.introduce .para-1 {
+  position: absolute;
+  left: 8rem;
+  top: 2.3rem;
+}
+.introduce .para-2 {
+  position: absolute;
+  left: 8rem;
+  top: 4rem;
+  font-size: 0.8rem;
+}
+.introduce .para-2 img {
+  width: 0.6rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+main {
+  margin-bottom: 6rem;
+}
+main p {
+  width: 100%;
+  height: 2rem;
+  font-size: 1rem;
+  border-bottom: 1px solid lightgray;
+  margin-left: 1rem;
+}
+main .green {
+  color: #5fc0cd;
+  font-weight: bolder;
+  display: inline-block;
+  margin-right: 1rem;
+}
+main .bigger {
+  font-size: 1rem;
+}
+main img {
+  width: 1rem;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+main .left {
+  color: gray;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid lightgray;
+}
+main .right {
+  display: inline-block;
+  margin: auto 1rem;
+}
+footer {
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+footer button {
+  width: 40%;
+  height: 3rem;
+  margin: 0.5rem 5%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+footer .button-left {
+  float: left;
+  color: #5fc0cd;
+  background-color: white;
+  border: 1px solid #5fc0cd;
+}
+footer .button-right {
+  float: right;
+  color: white;
+  background-color: #5fc0cd;
+}
