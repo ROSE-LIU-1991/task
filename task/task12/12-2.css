@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+.top {
+  width: 100%;
+  height: 3rem;
+  background-color: #5fc0cd;
+  font-size: 1.2rem;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.top div {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.top .top-left {
+  position: absolute;
+  top: 0.25rem;
+  left: 50%;
+  margin-left: -5rem;
+  background-color: #55a8b3;
+  color: white;
+}
+.top .top-left:hover,
+.top .top-left:active,
+.top .top-left:focus {
+  background-color: white;
+  color: #55a8b3;
+  z-index: 3;
+}
+.top .top-right {
+  position: absolute;
+  top: 0.25rem;
+  left: 50%;
+  margin-left: -0.5rem;
+  background-color: #55a8b3;
+  color: white;
+}
+.top .top-right:hover,
+.top .top-right:active,
+.top .top-right:focus {
+  background-color: white;
+  color: #55a8b3;
+}
+.top img {
+  width: 2rem;
+  float: right;
+  margin: 0.5rem;
+}
+.select-box {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  display: flex;
+  border-bottom: 1px solid lightgray !important;
+}
+.select-box select {
+  border: none;
+  width: 33.3%;
+  height: 2.3rem;
+  font-size: 1rem;
+  color: gray;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-right: 1px solid lightgray;
+  text-align: center;
+  text-align-last: center;
+}
+.expense {
+  font-size: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+.expense p {
+  margin: 0.5rem 1rem;
+}
+.expense .date {
+  color: gray;
+}
+.expense .date img {
+  width: 1rem;
+}
+.expense .time .black {
+  color: black;
+}
+.expense .time .red {
+  color: #e26163;
+  float: right;
+}
+.expense .time .blue {
+  color: #5fc0cd;
+  display: inline-block;
+  margin: auto 0.5rem;
+}
+.expense .place {
+  color: gray;
+}
+.expense .place img {
+  width: 1rem;
+}
+main {
+  margin-bottom: 5rem;
+}
+.fixed {
+  width: 100%;
+  height: 4rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #fcfafa;
+  display: flex;
+  justify-content: space-around;
+}
+.fixed .img-1 {
+  width: 3rem;
+}
+.fixed .img-2 {
+  width: 5rem;
+}
+@media screen and (max-width: 768px) {
+  .black {
+    display: inline-block;
+    width: 9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
