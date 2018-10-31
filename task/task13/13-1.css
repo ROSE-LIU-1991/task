@@ -97,26 +97,26 @@ header div img {
 .add .img1 {
   width: 16px;
   height: 18px;
-  background: url(1.png) no-repeat;
+  background: url(./img/1.png) no-repeat;
   background-size: 16px 18px;
   background-position: 0 0;
 }
 .add .img2 {
   width: 16px;
   height: 18px;
-  background: url(2.png) no-repeat;
+  background: url(./img/2.png) no-repeat;
   background-size: 16px 18px;
 }
 .add .img3 {
   width: 18px;
   height: 18px;
-  background: url(3.png) no-repeat;
+  background: url(./img/3.png) no-repeat;
   background-size: 18px 18px;
 }
 .add .img4 {
   width: 18px;
   height: 18px;
-  background: url(4.png) no-repeat;
+  background: url(./img/4.png) no-repeat;
   background-size: 18px 18px;
   display: inline-block;
   margin-left: 2px;
