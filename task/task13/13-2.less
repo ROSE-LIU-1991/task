@@ -1,0 +1,145 @@
+@blue:#34bede;
+@yellow:#f8b445;
+@opacity:rgba(52,190,222,0.7);
+@height:1rem;
+@px:1px;
+@white:white;
+@red:#f37072;
+@vw:1vw;
+body{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+}
+header{
+    width:100vw;
+    height:@height*4;
+    background:@blue;
+    font-size:@height*1.8;
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:space-between;
+    line-height:@height*4;
+    color:@white;
+    border-bottom:@px solid @white;
+    img{
+        width:@height*3;
+        height:@height*3;
+        display:inline-block;
+        margin:@height/2 @height;
+    }
+}
+main{
+    margin-top:@height*4;
+    background:@blue;
+    padding:0 @vw*8;
+    margin-bottom:@vw*15;
+}
+.success{
+    position:relative;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:@height*16;
+    height:@height*10;
+    margin-top:@px*5;
+}
+.game{
+    color:@yellow;
+    font-size:@height*2;
+}
+.total{
+    font-size:@height*1.8;
+    color:@white;
+    p{
+        margin:@height/2 0;
+    }
+    span{
+        display:inline-block;
+        margin-right:@height*2;
+    }
+}
+.result{
+    background:@white;
+    color:black;
+    margin:0 -@vw*8;
+    padding:@height*2 @vw*8;
+    h1{
+        font-size:@height*1.8;
+    }
+    p{
+        font-size:@height*1.6;
+        color:gray;
+        margin:@height 0;
+    }
+}
+footer{
+    height:@height*5;
+    width:100vw;
+    background:@opacity;
+    position:fixed;
+    left:0;
+    bottom:0;
+    button{
+        width:@vw*40;
+        height:@height*4;
+        margin:@height/2 @vw*5;
+        font-size:@height*2;
+        color:@white;
+        border-radius:@px*15;
+        a{
+            text-decoration:none;
+            color:@white;
+            &:hover{
+                text-decoration:none;
+                color:@white;
+            }
+        }
+    }
+    .red{
+        float:left;
+        background:@red;
+    }
+    .yellow{
+        float:right;
+        background:@yellow;
+    }
+}
+@media screen and (max-width:767px){
+    header{
+    font-size:@height*1.4;
+    }
+    main{
+        margin-top:@height*4;
+        margin-bottom:@vw*10;
+    }
+    .success{
+        width:@height*12;
+        height:@height*8;
+    }
+    .game{
+        font-size:@height*1.2;
+    }
+    .total{
+        font-size:@height;
+    }
+    .result{
+        h1{
+            font-size:@height*1.2;
+        }
+        p{
+            font-size:@height;
+        }
+    }
+    footer{
+        height:@height*4;
+        button{
+            width:@vw*40;
+            height:@height*3;
+            margin:@height/2 @vw*5;
+            font-size:@height*1.4;
+        }
+    }
+}

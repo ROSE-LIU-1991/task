@@ -1,0 +1,224 @@
+@blue:#34bede;
+@yellow:#f8b445;
+@gray:rgb(236, 233, 233);
+@white:white;
+@px:1px;
+@height:1rem;
+@vw:1vw;
+@vh:1vh;
+body{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+    background:@gray;
+}
+header{
+    width:100%;
+    height:@height*4;
+    background:@blue;
+    .for{
+        padding-top:@px*10;
+        .line{
+            background:@white;
+            width:@height*2;
+            height:@px*3;
+            margin:@height/2;
+            margin-left:@height/2;
+        }
+    }
+}
+main{
+    background:@gray;
+    width:100%;
+    margin-bottom:@height*3;
+    .right{
+        font-size:@height*2;
+        width:90%;
+        height:@height*7;
+        text-align:center;
+        color:gray;
+        border:@px solid lightgray;
+        background:@white;
+        line-height:@height*7;
+        margin-top:@height*2;
+        margin-left:5%;
+        span{
+            display:inline-block;
+            margin:0;
+        }
+        .tri1{
+            float:right;
+            width:0;
+            height:0;
+            border-top:@height*2 solid transparent;
+            border-left:@height*1.5 solid rgb(216, 215, 215);
+            border-bottom:@height*2 solid transparent;
+            border-right:@px*5 solid transparent;
+            margin-top:@height*2;
+        }
+        .tri2{
+            float:right;
+            width:0;
+            height:0;
+            border-top:@height*2 solid transparent;
+            border-left:@height*1.5 solid @white;
+            border-bottom:@height*2 solid transparent;
+            border-right:@px*5 solid transparent;
+            margin-right:-@height*1.3;
+            margin-top:@height*2;
+        }
+    }
+}
+.game{
+    width:90%;
+    background:@white;
+    margin-left:5%;
+    h1{
+        font-size:@height*2;
+        font-weight:normal;
+        color:@yellow;
+        border-bottom:@px solid @yellow;
+        text-align:center;
+        padding-top:@height*2;
+        padding-bottom:@height*2;
+    }
+    h2{
+        font-size:@height*1.8;
+        width:90%;
+        height:@height*7;
+        line-height:@height*7;
+        margin:@height*2;
+        margin-left:5%;
+        font-weight:normal;
+        color:@white;
+        background:@blue;
+        text-align:center;
+    }
+    .left{
+        display:inline-block;
+        font-size:@height*1.8;
+        width:90%;
+        height:@height*7;
+        line-height:@height*7;
+        margin:@height;
+        margin-left:5%;
+        margin-right:0;
+        font-weight:normal;
+        color:@white;
+        background:@blue;
+        text-align:center;
+        a{
+            color:@white;
+            text-decoration:none;
+            &:hover{
+                color:@white; 
+                text-decoration:none;
+            }
+        }
+    }
+    p{
+        font-size:@height*1.4;
+        text-align:center;
+        color:gray;
+        margin:0;
+        padding:0;
+        height:@height*3;
+        line-height:@height*3;
+    }
+}
+.circle{
+    display:flex;
+    justify-content:center;
+     div{
+         width:10px;
+         height:10px;
+         border-radius:50%;
+         background:gray;
+         margin:@height/2 5px;
+         &:hover{
+             background:@blue;
+         }
+     }
+}
+.tri{
+    width:0;
+    height:0;
+    border-left:@height*1.5 solid @yellow;
+    border-right:@px*5 solid transparent;
+    border-top:@height*2 solid transparent;
+    border-bottom:@height*2 solid transparent;
+    float:right;
+    margin-left:@vw;
+}
+.add{
+    display:flex;
+    align-items:center;
+}
+@media screen and (max-width:767px){
+    .right{
+        height:@height*4 !important;
+        line-height:@height*4 !important;
+        padding:0;
+        .last{
+            font-size:@height*1.4;
+        }
+        .tri1{
+            border-top:@height*1.5 solid transparent !important;
+            border-left:@height*1.2 solid rgb(216, 215, 215) !important;
+            border-bottom:@height*1.5 solid transparent !important;
+            border-right:@px*5 solid transparent !important;
+            margin-top:@height*0.65 !important;
+        }
+        .tri2{
+            border-top:@height*1.5 solid transparent !important;
+            border-left:@height*1.2 solid @white !important;
+            border-bottom:@height*1.5 solid transparent !important;
+            border-right:@px*5 solid transparent !important;
+            margin-right:-@height*1.2 !important;
+            margin-top:@height*0.65 !important;
+        }
+
+    }
+    .game{
+        h1{
+            font-size:@height*1.4;
+            height:@height*4;
+            line-height:@height*4;
+            padding:0;
+        }
+        h2{
+            width:80%;
+            margin-left:10%;
+            margin-right:10%;
+            font-size:@height*1.2;
+            height:@height*4;
+            line-height:@height*4;
+            margin-top:@height/2;
+            margin-bottom:@height/2;
+        }
+        .left{
+            width:80%;
+            margin-left:10%;
+            margin-right:0;
+            font-size:@height*1.2;
+            height:@height*4;
+            line-height:@height*4;
+            margin-top:@height/2;
+            margin-bottom:@height/2;
+        }
+        p{
+            font-size:@height;
+            height:@height*2;
+            line-height:@height*2;
+            padding:0;
+            margin:0;
+        }
+    }
+    .tri{
+        border-left:@height*1.2 solid @yellow !important;
+        border-right:@px*5 solid transparent !important;
+        border-top:@height*1.7 solid transparent !important;
+        border-bottom:@height*1.7 solid transparent !important;
+    }
+}
+    

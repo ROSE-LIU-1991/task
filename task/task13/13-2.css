@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+header {
+  width: 100vw;
+  height: 4rem;
+  background: #34bede;
+  font-size: 1.8rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  line-height: 4rem;
+  color: white;
+  border-bottom: 1px solid white;
+}
+header img {
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  margin: 0.5rem 1rem;
+}
+main {
+  margin-top: 4rem;
+  background: #34bede;
+  padding: 0 8vw;
+  margin-bottom: 15vw;
+}
+.success {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16rem;
+  height: 10rem;
+  margin-top: 5px;
+}
+.game {
+  color: #f8b445;
+  font-size: 2rem;
+}
+.total {
+  font-size: 1.8rem;
+  color: white;
+}
+.total p {
+  margin: 0.5rem 0;
+}
+.total span {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.result {
+  background: white;
+  color: black;
+  margin: 0 -8vw;
+  padding: 2rem 8vw;
+}
+.result h1 {
+  font-size: 1.8rem;
+}
+.result p {
+  font-size: 1.6rem;
+  color: gray;
+  margin: 1rem 0;
+}
+footer {
+  height: 5rem;
+  width: 100vw;
+  background: rgba(52, 190, 222, 0.7);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+footer button {
+  width: 40vw;
+  height: 4rem;
+  margin: 0.5rem 5vw;
+  font-size: 2rem;
+  color: white;
+  border-radius: 15px;
+}
+footer button a {
+  text-decoration: none;
+  color: white;
+}
+footer button a:hover {
+  text-decoration: none;
+  color: white;
+}
+footer .red {
+  float: left;
+  background: #f37072;
+}
+footer .yellow {
+  float: right;
+  background: #f8b445;
+}
+@media screen and (max-width: 767px) {
+  header {
+    font-size: 1.4rem;
+  }
+  main {
+    margin-top: 4rem;
+    margin-bottom: 10vw;
+  }
+  .success {
+    width: 12rem;
+    height: 8rem;
+  }
+  .game {
+    font-size: 1.2rem;
+  }
+  .total {
+    font-size: 1rem;
+  }
+  .result h1 {
+    font-size: 1.2rem;
+  }
+  .result p {
+    font-size: 1rem;
+  }
+  footer {
+    height: 4rem;
+  }
+  footer button {
+    width: 40vw;
+    height: 3rem;
+    margin: 0.5rem 5vw;
+    font-size: 1.4rem;
+  }
+}
