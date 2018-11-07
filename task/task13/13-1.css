@@ -101,7 +101,7 @@ header div img {
 .add .img1 {
   width: 6vw;
   height: 6vw;
-  background: url(1.png) no-repeat;
+  background: url(./img/1.png) no-repeat;
   background-size: 6vw 6vw;
   background-position: 0 0;
 }
@@ -122,7 +122,7 @@ header div img {
 .add .img2 {
   width: 6vw;
   height: 6vw;
-  background: url(2.png) no-repeat;
+  background: url(./img/2.png) no-repeat;
   background-size: 6vw 6vw;
 }
 .add .img2:hover {
@@ -140,7 +140,7 @@ header div img {
 .add .img3 {
   width: 6vw;
   height: 6vw;
-  background: url(3.png) no-repeat;
+  background: url(./img/3.png) no-repeat;
   background-size: 6vw 6vw;
 }
 .add .img3:hover {
@@ -158,7 +158,7 @@ header div img {
 .add .img4 {
   width: 6vw;
   height: 6vw;
-  background: url(4.png) no-repeat;
+  background: url(./img/4.png) no-repeat;
   background-size: 6vw 6vw;
   display: inline-block;
 }
