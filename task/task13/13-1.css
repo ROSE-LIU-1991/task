@@ -202,6 +202,8 @@ header div img {
   background: #f8b445;
   margin-top: 1rem;
   font-size: 1.2rem;
+  border:none;
+  outline:none;
 }
 .death button a {
   color: black;
