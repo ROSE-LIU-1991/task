@@ -96,7 +96,7 @@ header div img {
   display: flex;
   justify-content: flex-start;
   margin-top: 4.5vw;
-  visibility: hidden;
+  opacity:0;
 }
 .add .img1 {
   width: 6vw;
@@ -175,7 +175,7 @@ header div img {
   }
 }
 .wrap:hover .add {
-  visibility: visible;
+  opacity:1;
 }
 .row {
   display: flex;
