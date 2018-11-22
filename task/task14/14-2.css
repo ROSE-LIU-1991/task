@@ -259,7 +259,7 @@ main {
   background: orange;
 }
 
-.company ul li a:hover{
+.company ul li:hover a{
   color: orange;
 }
 
@@ -280,7 +280,7 @@ main {
 
 .company ul li a:hover {
   text-decoration: none;
-  color: #1db176;
+  color: orange;
 }
 
 .description {
