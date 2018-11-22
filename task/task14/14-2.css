@@ -259,9 +259,6 @@ main {
   background: orange;
 }
 
-.company ul li:hover a{
-  color: orange;
-}
 
 .company ul li .circle {
   display: inline-block;
