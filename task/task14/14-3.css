@@ -196,30 +196,35 @@ main {
 .direction {
   font-size: 14px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  padding: 2rem 0;
-  box-sizing: border-box;
-  width: 100%;
   border-bottom: 1px solid gray;
+  line-height: 3rem;
 }
 
-.direction span {
+.direction .all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: gray;
 }
 
-.direction a {
+.direction .all span {
+  width: 4rem;
   display: inline-block;
-  margin-left: 2rem;
+}
+
+.direction .develop {
   color: black;
-  text-decoration: none;
 }
 
-.direction a:hover {
+.direction .develop span {
+  width: 6rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.direction .develop span:hover {
   color: #1db176;
-  text-decoration: none;
 }
-
 h1 {
   font-size: 16px;
   border-bottom: 1px solid gray;
