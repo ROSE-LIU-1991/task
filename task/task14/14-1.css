@@ -458,8 +458,8 @@ h2 {
 
 .row5 .col-md-12 {
   float: none;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .row5 .link ul {
@@ -473,7 +473,7 @@ h2 {
 
 .row5 .link ul li {
   list-style: none;
-  padding: 0 1.2rem;
+  padding: 0 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
