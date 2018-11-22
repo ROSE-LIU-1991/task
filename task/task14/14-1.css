@@ -398,11 +398,6 @@ h2 {
   display: inline-block;
   padding: 0 5px;
 }
-
-.row2 .edge img {
-  visibility: hidden;
-}
-
 .row3 .personage {
   text-align: center;
   font-size: 16px;
