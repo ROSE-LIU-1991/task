@@ -176,23 +176,27 @@ main{
 .direction{
     font-size:nth($fx,6);
     display:flex;
-    flex-flow:row wrap;
-    justify-content:flex-start;
-    padding:2rem 0;
-    box-sizing:border-box;
-    width:100%;
     border-bottom:1px solid gray;
-    span{
+    line-height:3rem;
+    .all{
+        display:flex;
+        justify-content:center;
+        align-items:center;
         color:gray;
+        span{
+            width:4rem;
+            display:inline-block;
+        }
     }
-    a{
-        display:inline-block;
-        margin-left:2rem;
-        color:nth($color,2);
-        text-decoration:none;
-        &:hover{
-            color:nth($color,3);
-            text-decoration:none;
+    .develop{
+        color:black;
+        span{
+            width:6rem;
+            display:inline-block;
+            text-align:center;
+            &:hover{
+                color:nth($color,3);
+            }
         }
     }
 }
