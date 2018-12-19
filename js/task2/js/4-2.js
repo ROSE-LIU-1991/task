@@ -77,7 +77,7 @@ function Winjump() {
         sessionStorage.setItem("win", win);
         sessionStorage.setItem("alive", JSON.stringify(SurvivalNumber));
         sessionStorage.setItem("KillerNumber", JSON.stringify(KillerNumber));
-        window.location.href = "4-3.html"
+        window.location.href = "../html/4-3.html"
     } else if (KillerNumber.length >= (SurvivalNumber.length - KillerNumber.length)) {
         JumpStorage();
         let win = "杀手胜利";
@@ -88,9 +88,9 @@ function Winjump() {
         sessionStorage.setItem("win", win);
         sessionStorage.setItem("alive", JSON.stringify(SurvivalNumber));
         sessionStorage.setItem("KillerNumber", JSON.stringify(KillerNumber));
-        window.location.href = "4-3.html"
+        window.location.href = "../html/4-3.html"
     } else {
-        window.location.href = "4-1.html"
+        window.location.href = "../html/4-1.html"
     }
 }
 function JumpOperation() {
@@ -125,19 +125,19 @@ $(".footer-choice-jump").click(function () {
             JumpStorage();
             Journal.splice(0, Journal.length);
             sessionStorage.setItem("journal", JSON.stringify(Journal));
-            window.location.href = "4-1.html";
+            window.location.href = "../html/4-1.html";
         }
     }
 
 })
 $(".header-top-box").click(function () {
     JumpStorage();
-    window.location.href = "4-1.html"
+    window.location.href = "../html/4-1.html"
 })
 function Close() {
     let c = confirm("关闭本轮游戏回到主页？")
     if (c == true) {
         sessionStorage.clear();
-        window.location.href = "2-1.html";
+        window.location.href = "../html/2-1.html";
     }
 }
