@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #34bede;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header .header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: #34bede;
+  width: 100%;
+  padding: 0 5%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #74d4eb;
+}
+
+header .header-row .header-left-back {
+  background: #34bede;
+  display: block;
+  padding: 0.9rem;
+  border-left: 0.4rem solid white;
+  border-bottom: 0.4rem solid white;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+header .header-row h1 {
+  font-size: 18px;
+  background-color: inherit;
+  color: white;
+}
+
+header .header-row .header-right-home {
+  display: block;
+  width: 2.8rem;
+  height: 3.5rem;
+  background: url(8.png) center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+main #mainBoxOne {
+  height: 40rem;
+  width: 83%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffedc5;
+  border: 2px solid #fff;
+}
+
+main #mainBoxOne #mainTopNumber {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 2px solid #ffedc5;
+  position: absolute;
+  top: -2rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f56b81;
+}
+
+main #mainBoxOne #pictureOne {
+  padding: 10rem;
+  background: url(1.png) center no-repeat;
+  background-size: cover;
+}
+
+main #mainBoxOne #pictureCivilian {
+  display: none;
+  padding: 8rem;
+  background: url(2.png) center no-repeat;
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+main #mainBoxOne #pictureKiller {
+  display: none;
+  padding: 8rem;
+  background: url(3.png) center no-repeat;
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+main #mainBoxOne #identity {
+  font-size: 20px;
+  color: #34bede;
+  background: inherit;
+  font-weight: 700;
+}
+
+footer .footer-button-start {
+  width: 90%;
+  height: 5rem;
+  color: white;
+  background: #f8b445;
+  position: fixed;
+  bottom: 3rem;
+  left: 5%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}

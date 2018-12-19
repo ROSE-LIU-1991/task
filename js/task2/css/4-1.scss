@@ -1,0 +1,183 @@
+$blue:#34bede;
+$yellow:#f8b445;
+$lightyellow:#ffedc5;
+$white:white;
+$red:#f56b81;
+$lightblue:#74d4eb;
+$px:1px 2px 5px 10px 14px 16px 18px;
+$rem:1rem 2rem 3rem 4rem 5rem 10rem;
+$border:1px solid rgb(194, 193, 193);
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 242, 242);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    .header-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: nth($rem, 5);
+        background-color: $blue;
+        width: 100%;
+        padding: 0 5%;
+        box-sizing: border-box;
+        border-bottom: 1px solid $lightblue;
+
+        .header-left-back {
+            background: $blue;
+            display: block;
+            padding: 0.9rem;
+            border-left: 0.4rem solid white;
+            border-bottom: 0.4rem solid white;
+            transform: rotate(45deg);
+            cursor: pointer;
+        }
+
+        h1 {
+            font-size: nth($px, 7);
+            background-color: inherit;
+            color: $white;
+        }
+
+        .header-right-home {
+            display: block;
+            width: 2.8rem;
+            height: 3.5rem;
+            background: url(8.png) center no-repeat;
+            background-size: cover;
+            cursor: pointer;
+        }
+    }
+}
+
+main {
+    width: 100%;
+    margin-bottom:10rem;
+    .mainToDayBox {
+        width: 94%;
+        margin: auto;
+        background-color: $white;
+        border: $border;
+        margin-top: 3rem;
+        font-size: 16px;
+        font-weight: 600;
+        .mainToDayNumber {
+            width: 100%;
+            text-align: center;
+            color: $blue;
+            line-height:5rem;
+            background-color: inherit;
+            border: $border;
+            border-left: 0;
+            border-right: 0;
+        }
+
+        .mainOperate {
+            border: $border;
+            margin-left: 3rem;
+            background-color: inherit;
+            .resultFontSize{
+                width: 100%;
+                margin: 0.5rem 0;
+                text-align: center;
+                font-size: 1.6rem;
+                font-weight: 700;
+                color: rgb(180, 6, 6);
+                background:$white;
+            }
+            .buttonBox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                margin-top: 1.5rem;
+                margin-bottom: 1.5rem;
+                background-color: inherit;
+                .buttonBackgroundColor{
+                    background-color: #83b09a!important;
+                }
+                .buttonBorderColor{
+                    border-right-color: #83b09a!important;
+                }
+                .pictureMoon {
+                    position: absolute;
+                    left: -2rem;
+                    padding: 1.8rem;
+                    background: url(5.png) center no-repeat;
+                    background-size: cover;
+                }
+
+                .pictureSun {
+                    position: absolute;
+                    left: -2rem;
+                    padding: 1.8rem;
+                    background: url(6.png) center no-repeat;
+                    background-size: cover;
+                }
+
+                .mainTriangle {
+                    width: 0;
+                    height: 0;
+                    background-color:inherit;
+                    border-left:2.5rem solid transparent;
+                    border-top:2.5rem solid transparent;
+                    border-right:2.5rem solid $blue;
+                    border-bottom:2.5rem solid transparent;
+                }
+
+                .mainButton {
+                    background-color: $blue;
+                    width: 80%;
+                    height: 5rem;
+                    color: $white;
+                    cursor: pointer;
+                    outline: none;
+                    border: none;
+                    font-size: 16px;
+                    font-weight: 500;
+                    @media screen and (max-width:700px){
+                        width:70%;
+                    }
+                    @media screen and (max-width:425px){
+                        width:64%;
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    background:rgba(52,190,222,0.9);
+    height:7.5rem;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    button{
+       width:40%;
+       height:5.5rem;
+       font-size:16px;
+       font-weight:700;
+       border-radius:10px;
+       outline:none;
+       border:none;
+       margin:auto;
+       color:$white;
+       cursor:pointer;
+    }
+    .footerEnd{
+        background:red;
+    }
+    .footerLog{
+        background:$yellow;
+    }
+}

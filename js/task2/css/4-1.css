@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f2f2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header .header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: #34bede;
+  width: 100%;
+  padding: 0 5%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #74d4eb;
+}
+
+header .header-row .header-left-back {
+  background: #34bede;
+  display: block;
+  padding: 0.9rem;
+  border-left: 0.4rem solid white;
+  border-bottom: 0.4rem solid white;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+header .header-row h1 {
+  font-size: 18px;
+  background-color: inherit;
+  color: white;
+}
+
+header .header-row .header-right-home {
+  display: block;
+  width: 2.8rem;
+  height: 3.5rem;
+  background: url(8.png) center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+main .mainToDayBox {
+  width: 94%;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #c2c1c1;
+  margin-top: 3rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+main .mainToDayBox .mainToDayNumber {
+  width: 100%;
+  text-align: center;
+  color: #34bede;
+  line-height: 5rem;
+  background-color: inherit;
+  border: 1px solid #c2c1c1;
+  border-left: 0;
+  border-right: 0;
+}
+
+main .mainToDayBox .mainOperate {
+  border: 1px solid #c2c1c1;
+  margin-left: 3rem;
+  background-color: inherit;
+}
+
+main .mainToDayBox .mainOperate .resultFontSize {
+  width: 100%;
+  margin: 0.5rem 0;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #b40606;
+  background: white;
+}
+
+main .mainToDayBox .mainOperate .buttonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: inherit;
+}
+
+main .mainToDayBox .mainOperate .buttonBox .buttonBackgroundColor {
+  background-color: #83b09a !important;
+}
+
+main .mainToDayBox .mainOperate .buttonBox .buttonBorderColor {
+  border-right-color: #83b09a !important;
+}
+
+main .mainToDayBox .mainOperate .buttonBox .pictureMoon {
+  position: absolute;
+  left: -2rem;
+  padding: 1.8rem;
+  background: url(5.png) center no-repeat;
+  background-size: cover;
+}
+
+main .mainToDayBox .mainOperate .buttonBox .pictureSun {
+  position: absolute;
+  left: -2rem;
+  padding: 1.8rem;
+  background: url(6.png) center no-repeat;
+  background-size: cover;
+}
+
+main .mainToDayBox .mainOperate .buttonBox .mainTriangle {
+  width: 0;
+  height: 0;
+  background-color: inherit;
+  border-left: 2.5rem solid transparent;
+  border-top: 2.5rem solid transparent;
+  border-right: 2.5rem solid #34bede;
+  border-bottom: 2.5rem solid transparent;
+}
+
+main .mainToDayBox .mainOperate .buttonBox .mainButton {
+  background-color: #34bede;
+  width: 80%;
+  height: 5rem;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 700px) {
+  main .mainToDayBox .mainOperate .buttonBox .mainButton {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main .mainToDayBox .mainOperate .buttonBox .mainButton {
+    width: 64%;
+  }
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: rgba(52, 190, 222, 0.9);
+  height: 7.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer button {
+  width: 40%;
+  height: 5.5rem;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin: auto;
+  color: white;
+  cursor: pointer;
+}
+
+footer .footerEnd {
+  background: red;
+}
+
+footer .footerLog {
+  background: #f8b445;
+}

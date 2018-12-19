@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #29bde0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header .header-top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1rem solid #74b4eb;
+  color: #fff;
+  font-size: 16px;
+}
+
+header .header-top-box .header-top-left {
+  padding: 2.5rem;
+  background-image: url(11.png);
+  background-repeat: no-repeat;
+  background-position: 1rem;
+  background-size: 3.5rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+header .header-top-box .header-top-right {
+  padding: 2.5rem;
+  background-image: url(12.png);
+  background-position: 0 0.8rem;
+  background-repeat: no-repeat;
+  background-size: 3.5rem;
+}
+
+main {
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  background-color: #29bde0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .main-result-picture {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  width: 19rem;
+  padding-top: 7.5rem;
+  margin-bottom: 3rem;
+  background-image: url(13.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main .mian-result-summary {
+  padding: 0 3.9rem 3rem 3.9rem;
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: #ffc865;
+}
+
+main .main-result-detailed {
+  align-self: flex-start;
+  padding-left: 3.9rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0.5rem 0;
+}
+
+main .main-log-box {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 0.1rem solid #ddd;
+}
+
+main .package {
+  width: 100%;
+}
+
+main .package .main-log-topbox {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3.9rem;
+  padding-right: 3.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+main .package .main-log-day {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+main .package .main-log-time {
+  padding-top: 0.5rem;
+  color: #c7c7c7;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+main .package .main-log-summary {
+  padding: 0.5rem 3.9rem 0.5rem 3.9rem;
+  color: #a6a6a6;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(65, 180, 209, 0.5);
+}
+
+footer .footer-recur {
+  display: block;
+  width: 40%;
+  line-height: 5.5rem;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin: auto;
+  color: white;
+  cursor: pointer;
+  background-color: #f66f6f;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer .footer-share {
+  display: block;
+  width: 40%;
+  line-height: 5.5rem;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin: auto;
+  color: white;
+  background-color: #fbb435;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}

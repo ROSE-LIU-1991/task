@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #34bede;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header .header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background-color: #34bede;
+  width: 100%;
+  padding: 0 2%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #74d4eb;
+}
+
+header .header-row .header-nav-left {
+  display: block;
+  width: 2.8rem;
+  height: 3.5rem;
+  background: url(7.png) center no-repeat;
+  background-size: cover;
+}
+
+header .header-row .header-nav-word {
+  font-size: 18px;
+  background-color: inherit;
+  color: white;
+}
+
+header .header-row .header-nav-right {
+  display: block;
+  width: 2.8rem;
+  height: 3.5rem;
+  background: url(8.png) center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.vote {
+  width: 100%;
+  height: 4rem;
+  background-color: #bae9f4;
+  font-size: 16px;
+  line-height: 4rem;
+}
+
+.vote .header-in-word {
+  margin-left: 3rem;
+  display: inline-block;
+  background: #bae9f4;
+  font-weight: 600;
+}
+
+.vote img {
+  float: right;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 2%;
+  margin-top: 0.2rem;
+}
+
+.vote audio {
+  position: absolute;
+  top: 4rem;
+  right: -1.3rem;
+  opacity: 0;
+  width: 8rem;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 1rem solid #bae9f4;
+  border-bottom: 0.5rem solid transparent;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  margin-left: 4rem;
+}
+
+.header-bottom-word {
+  font-size: 16px;
+  margin-left: 4.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+main {
+  margin-top: 2rem;
+  padding-bottom: 12rem;
+  overflow: hidden;
+}
+
+main .mainRedBorder {
+  border-color: red;
+}
+
+main .disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
+main .main-square-box {
+  width: 22vw;
+  height: 22vw;
+  margin: 4.8%;
+  text-align: center;
+  float: left;
+  border: 5px solid white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 580px) {
+  main .main-square-box {
+    margin: 4.3%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main .main-square-box {
+    margin: 4.3%;
+    border: 3px solid white;
+  }
+}
+
+main .main-square-box .mainRed {
+  background-color: red !important;
+}
+
+main .main-square-box .main-square-identity {
+  line-height: 16.5vw;
+  font-size: 4.5vw;
+  font-weight: 700;
+  background-color: #f5c97b;
+}
+
+main .main-square-box .main-square-number {
+  line-height: 5.5vw;
+  font-weight: 700;
+  font-size: 3.5vw;
+  color: #fff;
+  background-color: #83b09a;
+}
+
+main .hoverbox {
+  display: none;
+}
+
+main .hover2 {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 0.5vw;
+}
+
+main .main-square-box:hover .hoverbox {
+  display: block;
+  margin: 2vw 0;
+}
+
+footer .death {
+  width: 100%;
+}
+
+footer .death .footer-choice-jump {
+  width: 80%;
+  margin-left: 10%;
+  position: fixed;
+  left: 0;
+  bottom: 2rem;
+  background: #f8b445;
+  height: 5rem;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
