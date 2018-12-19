@@ -86,13 +86,13 @@ function Start(){
         }
         console.log(all);
         sessionStorage.setItem("all",JSON.stringify(all));
-        window.location.href = "3-1.html";
+        window.location.href = "../html/3-1.html";
     }
 }
 function BackOff(){
     let b = confirm("需要回到主页吗？");
     if(b == true){
         sessionStorage.clear();
-        window.location.href = "2-1.html";
+        window.location.href = "../html/2-1.html";
     }
 }
