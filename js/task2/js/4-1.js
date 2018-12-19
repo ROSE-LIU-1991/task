@@ -73,7 +73,7 @@ $(".buttonBox").eq(toDay.length * 4 - 4).click(function () {
         activation = 1;
         ButtonOperation();
         StorageJume();
-        window.location.href = "4-2.html";
+        window.location.href = "../html/4-2.html";
     } else {
         alert("老哥按顺序来!");
     }
@@ -108,7 +108,7 @@ $(".buttonBox").eq(toDay.length * 4 - 1).click(function () {
         ButtonOperation();
         StorageJume()
         alert("速度投，开始下一轮");
-        window.location.href = "4-2.html";
+        window.location.href = "../html/4-2.html";
         //x.splice(0,x.length);
     } else {
         alert("老哥按顺序来!");
@@ -124,18 +124,18 @@ $(".footerLog").click(function () {
     StorageJume();
     Journal.push(0);
     sessionStorage.setItem("journal", JSON.stringify(Journal));
-    window.location.href = "4-2.html";
+    window.location.href = "../html/4-2.html";
 })
 function Close() {
     let c = confirm("关闭本轮游戏回到主页？")
     if (c == true) {
         sessionStorage.clear();
-        window.location.href = "task2-1.html";
+        window.location.href = "../html/task2-1.html";
     }
 }function backOff(){
     let b = confirm("是否返回到上一页？");
     if(b == true){
         sessionStorage.clear();
-        window.location.href = "3-2.html" ;
+        window.location.href = "../html/3-2.html" ;
     }
 }
