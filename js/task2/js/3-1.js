@@ -36,20 +36,20 @@ function btn(){
     }
     else{
         sessionStorage.setItem("all",JSON.stringify(Player));
-        window.location.href = "3-2.html";
+        window.location.href = "../html/3-2.html";
     }
 }
 function BackOff(){
     let b = confirm("是否返回到上一页？");
     if(b == true){
         sessionStorage.clear();
-        window.location.href = "2-2.html";
+        window.location.href = "../html/2-2.html";
     }
 }
 function Close(){
     let c = confirm("关闭本轮游戏回到主页？");
     if(c == true){
         sessionStorage.clear();
-        window.location.href = "2-1.html";
+        window.location.href = "../html/2-1.html";
     }
 }
