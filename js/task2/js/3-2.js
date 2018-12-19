@@ -16,19 +16,19 @@ function jump(){
         }
     }
     sessionStorage.setItem("player",JSON.stringify(y));
-    window.location.href = "4-1.html" ;
+    window.location.href = "../html/4-1.html" ;
 }
 function backOff(){
     let b = confirm("是否返回到上一页？");
     if(b == true){
         sessionStorage.clear();
-        window.location.href = "3-1.html" ;
+        window.location.href = "../html/3-1.html" ;
     }
 }
 function Close(){
     let c = confirm("关闭本轮游戏回到主页？");
     if(c == true){
         sessionStorage.clear();
-        window.location.href = "2-1.html" ;
+        window.location.href = "../html/2-1.html" ;
     }
 }
