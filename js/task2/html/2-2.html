@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>玩家人数设置</title>
+        <link rel="stylesheet" type="text/css" href="2-2.css">
+    </head>
+    <body>
+        <header>
+            <div class="container header-row">
+                <a class="header-left-back" onclick="BackOff()"></a>
+                <h1 class="header-set">设置参数</h1>
+                <a class="header-right-help"></a>
+            </div>
+        </header>
+        <main>
+            <div class="main-top-box container">
+                 <div class="main-left-tittle">
+                    玩<br>家<br>配<br>比
+                 </div>
+                 <div class="top-right-box">
+                     <div class="top-right-upper">
+                         <ul class="upper-player" id="list">
+                         </ul>
+                     </div>
+                     <button class="top-right-lower" onclick="PlayerRatio()">
+                         点击设置
+                     </button>
+                 </div>
+            </div>
+            <div class="main-in-box container">
+                <div class="top-row">
+                    水民词组:
+                    <input class="top-row-input" type="text" placeholder="限输10个字以内">
+                </div>
+                <div class="bottom-row">
+                    杀手词组:
+                    <input class="bottom-row-input" type="text" placeholder="限输10个字以内">
+                </div>
+            </div>
+            <div class="main-bottom-box container">
+                <div class="bottom-upper-box">
+                    玩家人数
+                    <input type="text" class="bottom-upper-people" id="TextNumber" value="4">
+                    人
+                </div>
+                <div class="bottom-lower-box">
+                    <input class="bottom-lower-plus" type="button" onclick="BtnSub()">
+                    <input class="bottom-lower-slider" type="range" id="RangeNumber" value="4" min="4" max="18" step="1">
+                    <input class="bottom-lower-minus" type="button" onclick="BtnAdd()">
+                </div>
+            </div>
+        </main>
+        <footer class="container">
+            <button class="footer-bottom-start" onclick="Start()">来一发</button>
+        </footer>
+        <script src="../../js/task2/2-2.js"></script>
+    </body>
+</html>
