@@ -24,7 +24,7 @@ header .header-row .header-nav-left {
   display: block;
   width: 2.8rem;
   height: 3.5rem;
-  background: url(7.png) center no-repeat;
+  background: url(../img/7.png) center no-repeat;
   background-size: cover;
 }
 
@@ -38,7 +38,7 @@ header .header-row .header-nav-right {
   display: block;
   width: 2.8rem;
   height: 3.5rem;
-  background: url(8.png) center no-repeat;
+  background: url(../img/8.png) center no-repeat;
   background-size: cover;
   cursor: pointer;
 }
