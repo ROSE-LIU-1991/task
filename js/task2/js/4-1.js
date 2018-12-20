@@ -130,7 +130,7 @@ function Close() {
     let c = confirm("关闭本轮游戏回到主页？")
     if (c == true) {
         sessionStorage.clear();
-        window.location.href = "../html/task2-1.html";
+        window.location.href = "../html/2-1.html";
     }
 }function backOff(){
     let b = confirm("是否返回到上一页？");
